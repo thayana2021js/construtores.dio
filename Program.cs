@@ -7,10 +7,8 @@ namespace ExemploConstrutores
     {
         static void Main(string[] args)
         {
-            Pessoa
-
+            Pessoa p1 = new Pessoa("Thayana", "Villar");
+           p1.Apresentar();
         }
-       
-
     }
 }
